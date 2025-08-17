@@ -5,12 +5,12 @@ Files:
 1) encrypt_tool.py
 2) client.py
 3) server.py
-4) sample_input.txt
-5) sample_encrypted.enc
+4) sample.txt
+5) sample.enc
 6) sample_decrypted.txt
 7) README.txt
 
-How to run the file-based tool:
+How to run:
 1) Put your input file in the same folder or use a full path.
 2) Run: python encrypt_tool.py
 3) When asked:
@@ -25,31 +25,31 @@ Encrypt Caesar:
 Enter mode: encrypt
 Enter cipher: caesar
 Enter key: 3
-Enter path to input text file: sample_input.txt
-Output: sample_input.enc
+Enter path to input text file: sample.txt
+Output: sample.enc
 
 Decrypt Caesar:
 Enter mode: decrypt
 Enter cipher: caesar
 Enter key: 3
-Enter path to input text file: sample_encrypted.enc
-Output: sample_encrypted_decrypted.txt
+Enter path to input text file: sample.enc
+Output: sample_decrypted.txt
 
 Encrypt XOR:
 Enter mode: encrypt
 Enter cipher: xor
 Enter key: 42
-Enter path to input text file: sample_input.txt
-Output: sample_input.enc
+Enter path to input text file: sample.txt
+Output: sample.enc
 
 Decrypt XOR:
 Enter mode: decrypt
 Enter cipher: xor
 Enter key: 42
-Enter path to input text file: sample_input.enc
-Output: sample_input_decrypted.txt
+Enter path to input text file: sample.enc
+Output: sample_decrypted.txt
 
-How to run the bonus sockets:
+How to run the sockets:
 Open two terminals in the same folder.
 
 Terminal 1 (server):
