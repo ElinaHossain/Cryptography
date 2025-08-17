@@ -38,14 +38,14 @@ Output: sample_decrypted.txt
 Encrypt XOR:
 Enter mode: encrypt
 Enter cipher: xor
-Enter key: 42
+Enter key: 5
 Enter path to input text file: sample.txt
 Output: sample.enc
 
 Decrypt XOR:
 Enter mode: decrypt
 Enter cipher: xor
-Enter key: 42
+Enter key: 5
 Enter path to input text file: sample.enc
 Output: sample_decrypted.txt
 
